@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
+  base: '/REDESNEURONALES/',
   plugins: [react(), tailwindcss()],
   optimizeDeps: {
     include: ['three', '@react-three/fiber', '@react-three/drei', '@tensorflow/tfjs', 'papaparse'],

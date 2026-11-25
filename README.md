@@ -32,3 +32,11 @@ npm run dev
 npm run build
 npm test
 ```
+
+## Despliegue en GitHub Pages
+
+Cada push a `main` ejecuta el workflow de GitHub Actions y publica la aplicación en:
+
+https://vixhugo.github.io/REDESNEURONALES/
+
+Para activar la publicación en el repositorio, ve a **Settings → Pages** y selecciona **GitHub Actions** como fuente. La aplicación es estática y se ejecuta en el navegador; los datos se guardan localmente en IndexedDB y LocalStorage.
