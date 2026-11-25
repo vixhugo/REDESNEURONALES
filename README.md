@@ -33,10 +33,8 @@ npm run build
 npm test
 ```
 
-## Despliegue en GitHub Pages
+## Despliegue en Vercel
 
-Cada push a `main` ejecuta el workflow de GitHub Actions y publica la aplicación en:
+Importa `vixhugo/REDESNEURONALES` en Vercel. El proyecto detecta Vite automáticamente; usa `npm run build` como comando de compilación y `dist` como directorio de salida. Las rutas de la aplicación están configuradas para funcionar al abrirlas directamente.
 
-https://vixhugo.github.io/REDESNEURONALES/
-
-Para activar la publicación en el repositorio, ve a **Settings → Pages** y selecciona **GitHub Actions** como fuente. La aplicación es estática y se ejecuta en el navegador; los datos se guardan localmente en IndexedDB y LocalStorage.
+La aplicación es estática y se ejecuta en el navegador; los datos se guardan localmente en IndexedDB y LocalStorage.
